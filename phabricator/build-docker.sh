@@ -8,7 +8,7 @@ echo "***************************************************************"
 docker build -t ${SERVICE_NAME} context
 
 echo "***************************************************************"
-echo "            Push duobeiyun-api-crawler docker image"
+echo "            Push phabricator docker image"
 echo "***************************************************************"
 docker push ${SERVICE_NAME}
 
